@@ -13,6 +13,10 @@
     <link href="//fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="//fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
+
+    <!-- FONT AWESOME  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- STYLE CSS  -->
     <link rel="stylesheet" href="./css/style.css">
     <title>Capstone - Quan & Tam</title>
@@ -33,12 +37,71 @@
             </div>
           </div>
     </section>
-
+            
     <!-- 8-Stats -->
-    <section class="stats"></section>
+    <section class="stats ">
+      <div class="container">
+        <div class="w3-stats">
+          <div class="row">
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter">
+                <span class="fa fa-building-o"></span>
+                <div class="timer count-title count-number mt-3" data-to="15100" data-speed="1500">15,100</div>
+                <p class="count-text">Branches</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter">
+                <span class="fa fa-cutlery"></span>
+                <div class="timer count-title count-number mt-3" data-to="19256" data-speed="1500">19,256</div>
+                <p class="count-text ">Food Items</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter">
+                <span class="fa fa-users"></span>
+                <div class="timer count-title count-number mt-3" data-to="12100" data-speed="1500">12,100</div>
+                <p class="count-text">Chefs</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter">
+                <span class="fa fa-smile-o"></span>
+                <div class="timer count-title count-number mt-3" data-to="2560" data-speed="1500">2,560</div>
+                <p class="count-text">Happy Customers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- 9-Video  -->
-    <section class="video"></section>
+    <section class="video" id="video">
+      <div class="new-block py-5">
+        <div class="container py-lg-5">
+          <div class="history-info position-relative">
+            <!--//video-->
+            <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center pl-3">
+              <span class="video-play-icon">
+                <span class="fa fa-play"></span>
+              </span>
+            </a>
+  
+            <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+            <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+              <iframe src="https://player.vimeo.com/video/305185528" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+            </div>
+            <!--//video-->
+          </div>
+  
+          <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+          <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+            <iframe src="https://player.vimeo.com/video/305185528" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- 10-Blog -->
     <section class="blog"></section>
