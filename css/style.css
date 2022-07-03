@@ -12,6 +12,23 @@ body {
     color: #212529;
     text-align: left;
 }
+a, a:hover {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
 /* The tieu de H6
     font-family: 'Pacifico', cursive;
 */
+
+/* Contact */
+
+/* Buttons */
+
+/* Stats */
+
+
+/* Video */
+
+/* Hieu ung chuyen dong cho video */
