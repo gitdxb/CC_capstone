@@ -172,26 +172,73 @@
     <!-- 11-Testimonials -->
     <section class="testimonial">
         <div class="container">
-            <h6>Testimonials</h6>
-            <h3>What People Say</h3>
-            <div class="testi_carousel">
-                <div></div>
-                <div></div>
-                <div></div>
+          <div id="portCarouselID" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#portCarouselID" data-slide-to="0" class="active"></li>
+              <li data-target="#portCarouselID" data-slide-to="1"></li>
+              <li data-target="#portCarouselID" data-slide-to="2"></li>
+              <li data-target="#portCarouselID" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-caption">
+                  <img class="portAvatar animate__animated animate__fadeInUp" src="./img/team1.jpg" alt="">
+                  <h5>OMG! I cannot believe. It's Awesome</h5>
+                  <p>My new site is so much faster and easier to work with than my old site. They are here to
+                    help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                    Pellen tesque libero ut justo, ultrices in ligula.</p>
+                    <h3>Johnson william</h3>
+                    <p class="indentity text-center">Customer</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-caption">
+                  <img class="portAvatar" src="./img/team2.jpg" alt="">
+                  <h5>Simply the best. Better than all the rest.</h5>
+                  <p>My new site is so much faster and easier to work with than my old site. They are here to
+                    help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                    Pellen tesque libero ut justo, ultrices in ligula.</p>
+                    <h3>Alexander sakura</h3>
+                    <p class="indentity text-center">Customer</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-caption">
+                  <img class="portAvatar" src="./img/team3.jpg" alt="">
+                  <img class="portAvatar animate__animated animate__fadeInUp" src="./img/team1.jpg" alt="">
+                  <h5>OMG! I cannot believe. It's Awesome</h5>
+                  <p>My new site is so much faster and easier to work with than my old site. They are here to
+                    help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                    Pellen tesque libero ut justo, ultrices in ligula.</p>
+                    <h3>John wilson</h3>
+                    <p class="indentity text-center">Customer</p>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption">
+                    <img class="portAvatar" src="./img/team3.jpg" alt="">
+                    <h5>Simply the best. Better than all the rest.</h5>
+                  <p>My new site is so much faster and easier to work with than my old site. They are here to
+                    help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                    Pellen tesque libero ut justo, ultrices in ligula.</p>
+                    <h3>Julia sakura</h3>
+                    <p class="indentity text-center">Customer</p>
+                  </div>
+              </div>
             </div>
+          </div>
         </div>
     </section>
 
     <!-- 12-Footer -->
     <footer>
-        <div class="container">
+        <div class="container py-5">
             <div class="row">
-              <div class="col-sm">
+              <div class="footer__diner col-lg-4 col-md-6 col-sm-7 pr-lg-5">
                 <h2>
                     <a href="#">Diner</a>
                 </h2>
                 <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet Semper at elit.</p>
-                <div class="footer__social">
+                <div class="footer__social mt-4">
                     <a href="#">
                         <span class="fa fa-facebook"></span>
                     </a>
@@ -206,7 +253,7 @@
                     </a>
                 </div>
               </div>
-              <div class="col-sm">
+              <div class="footer__link col-lg-2 col-md-6 col-sm-5 col-6 mt-sm-0 mt-5">
                 <h6>Usefull Links</h6>
                 <ul>
                     <li><a href="#">About Us</a></li>
@@ -216,7 +263,7 @@
                     <li><a href="#">Contact us</a></li>
                 </ul>
               </div>
-              <div class="col-sm">
+              <div class="footer__info col-lg-2 col-md-6 col-sm-5 col-6 mt-lg-0 mt-5">
                 <h6>More Info</h6>
                 <ul>
                     <li><a href="#">History</a></li>
@@ -226,7 +273,7 @@
                     <li><a href="#">Support</a></li>
                 </ul>
               </div>
-              <div class="col-sm">
+              <div class="footer__news col-lg-4 col-md-6 col-sm-7 mt-lg-0 mt-5">
                 <h6>Subscribe to our Newsletter</h6>
                 <p>Enter your email and receive the latest news, updates and special offers from us.</p>
                 <form action="#" class="subscribe mt-4" method="post">
@@ -238,24 +285,41 @@
           </div>
     <div class="copyright">
         <div class="container">
-            <p class="col-lg-8 copy-footer-29">© 2021 Diner. All rights reserved. Design by <a href="https://w3layouts.com/" target="_blank">
-                W3Layouts</a></p>
-            <div class="col-lg-4 footer-list-29">
-                <ul class="d-flex text-lg-right">
+          <div class="copyright__content row">
+              <p class="col-lg-8">© 2021 Diner. All rights reserved. Design by <a href="https://w3layouts.com/" target="_blank">
+              W3Layouts</a></p>
+              <div class="col-lg-4 footer__copyright">
+                <ul class="copyright__links">
                     <li><a href="#"> Careers</a></li>
-                    <li class="mx-lg-5 mx-md-4 mx-3"><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Contact us</a></li>
                 </ul>
-            </div>    
+              </div>   
+          </div>
+          <div class="copyright__left">
+            
+          </div>
+          <div class="copyright__right">
+             
+          </div>
         </div>
     </div>
     </footer>
 
+    <!-- Back to top  -->
+    <a>
+      <button class="backToTop cd-top text-replace js-cd-top">
+        ⤴
+      </button>
+    </a>
 
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <!-- Back to top -->
+    <script src="./js/util.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

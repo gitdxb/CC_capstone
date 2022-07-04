@@ -15,9 +15,18 @@ body {
 a, a:hover {
     text-decoration: none;
 }
+a {
+    color: #ff6600;
+    text-decoration: none;
+    background-color: transparent;
+}
 li {
     list-style-type: none;
 }
+ul li a:hover, .footer__diner h2 a:hover {
+    color: #ff6600;
+}
+
 /* The tieu de H6
     font-family: 'Pacifico', cursive;
 */
@@ -32,3 +41,172 @@ li {
 /* Video */
 
 /* Hieu ung chuyen dong cho video */
+
+/* Testimonials */
+/* CAROUSEL  */
+/*  B1: chinh kich thuoc avatar
+    B2: chinh chieu cao anh nen (height)
+    B3: chinh vi tri noi dung caption, o chinh giua
+    B4: chinh hinh dang cua indicator
+*/
+
+/* B1  */
+.portAvatar {
+    width: 140px;
+    border-radius: 50%;
+}
+.carousel-item h5, .carousel-item p {
+    color: #000;
+}
+
+/* B2  */
+#portCarouselID .carousel-item {
+    height: 100vh;
+}
+#portCarouselID .carousel-item>img {
+    height: 100%;
+    object-fit: cover;
+}
+/* B3  */
+/* BS da co khai bao position absolute, can phai can giua voi position absolute */
+#portCarouselID .carousel-caption {
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Chieu doc va chieu ngang keo nguoc lai*/
+}
+#portCarouselID .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:  #d8d8d8;
+    margin: 5px 2px;
+    transition: opacity .2s ease;
+}
+#portCarouselID .carousel-indicators li.active {
+    background-color: #ff6600;
+}
+
+/* Footer */
+footer {
+    background: #000;
+}
+footer h2, footer h6 {
+    /* margin-bottom: 1rem;
+    color: white; */
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    position: relative;
+    color: #fff;
+}
+footer p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #a5a2a1;
+}
+.footer__diner h2 a {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 0;
+}
+.footer__social a {
+    margin-right: 10px;
+    color: #ff6600;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    background: #fff;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.footer__social a:hover {
+    background: #ff6600;
+    transition: 0.3s;
+    color: #fff;
+}
+/* .footer__social fa {
+    line-height: 36px;
+} */
+.footer__link li, .footer__info li {
+    margin-bottom: 10px;
+}
+.footer__link li a, .footer__info li a, .footer__copyright li a {
+    font-size: 17px;
+    line-height: 26px;
+    color: #a5a2a1;
+}
+footer input[type="email"] {
+    padding: 14px 20px;
+    font-size: 18px;
+    line-height: 28px;
+    border: 1px solid transparent;
+    outline: none;
+    width: 100%;
+    color: rgba(22, 28, 45, 0.7);
+    background: #fff;
+    border-radius: 6px;
+}
+.footer__news .btn-primary {
+    color: white;
+    background-color: #ff6600;
+    border: 2px solid #ff6600;
+    padding: 12px 45px;
+    margin: 16px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+.footer__news .btn-primary:hover {
+    color: #fff;
+    background-color: #ff6600;
+    border: 2px solid #ff6600;
+    opacity: 0.8;
+}
+
+/* Copyright */
+
+.copyright p {
+    align-self: center;
+    color: #ddd;
+    font-size: 17px;
+}
+
+.copyright {
+    padding: 1.2em 0;
+    height: 68px;
+    background: #000;
+    border-top: 1px solid rgb(255 255 255 / 5%);
+}
+.copyright__links {
+    display: flex;
+    justify-content: space-between;
+}
+/* Back to top */
+.backToTop {
+    width: 50px;
+    height: 50px;
+    background: #ff6600;
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+    display: block;
+    position: fixed;
+    right: 20px;
+    bottom: 55px;
+    color: #fff;
+    transition: 0.3s ease-out;
+    border: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1
+}
