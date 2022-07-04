@@ -13,9 +13,16 @@ body {
     text-align: left;
     display: block;
 }
+a, a:hover {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
 /* The tieu de H6
     font-family: 'Pacifico', cursive;
 */
+
 .headerCarousel{
     
     background-size: cover;
@@ -111,3 +118,16 @@ header{
 @media screen and (max-width:992px) {
     /* HEADER */
 }
+
+
+/* Contact */
+
+/* Buttons */
+
+/* Stats */
+
+
+/* Video */
+
+/* Hieu ung chuyen dong cho video */
+
