@@ -24,10 +24,10 @@
 <body>
 
     <!-- 7-Contact -->
-    <section class="contact">
-       <div class="container pt-lg-2 pb-lg-4 py-4">
+    <section class="contact py-5">
+       <div class="contact__inner container pt-lg-2 pb-lg-4 py-4">
         <h3 class="text-center py-lg-5">Deliciousness jumping into the mouth.</h3>
-        <div class="contact__button">
+        <div class="contact__button middle-buttons pb-lg-5">
             <a href="about.html" class="btn  btn-style btn-white mt-sm-5 mt-4 mr-lg-4 mr-2">Read More<span class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
             <a href="contact.html" class="btn btn-style btn-primary mt-sm-5 mt-4">Contact Us<span class="fa fa-chevron-right ml-2" aria-hidden="true"></span></a>
         </div>
@@ -35,45 +35,71 @@
     </section>
             
     <!-- 8-Stats -->
-    <section class="stats">
-        <div class="container">
-            <div class="row">
-              <div class="col-sm">
+    <section class="stats py-lg-0 py-md-5 py-4" id="stats">
+      <div class="container">
+        <div class="stats">
+          <div class="row">
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter">
                 <span class="fa fa-building-o"></span>
-                <p>15,100</p>
-                <p>Branches</p>
+                <div class="timer count-title count-number mt-3" data-to="15100" data-speed="1500">15,100</div>
+                <p class="count-text">Branches</p>
               </div>
-              <div class="col-sm">
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter">
                 <span class="fa fa-cutlery"></span>
-                <p>19,256</p>
-                <p>Food Items</p>
+                <div class="timer count-title count-number mt-3" data-to="19256" data-speed="1500">19,256</div>
+                <p class="count-text ">Food Items</p>
               </div>
-              <div class="col-sm">
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter">
                 <span class="fa fa-users"></span>
-                <p>12,100</p>
-                <p>Chefs</p>
+                <div class="timer count-title count-number mt-3" data-to="12100" data-speed="1500">12,100</div>
+                <p class="count-text">Chefs</p>
               </div>
-              <div class="col-sm">
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-4">
+              <div class="counter">
                 <span class="fa fa-smile-o"></span>
-                <p>2,560</p>
-                <p>Happy Customers</p>
+                <div class="timer count-title count-number mt-3" data-to="2560" data-speed="1500">2,560</div>
+                <p class="count-text">Happy Customers</p>
               </div>
             </div>
           </div>
+        </div>
+      </div>
     </section>
 
     <!-- 9-Video  -->
-    <section class="video">
-        <div class="container">
-            <iframe src="https://player.vimeo.com/video/305185528" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+    <section class="dinerVideo" id="video">
+      <div class="dinerVideo__wrapper">
+        <div class="container py-lg-5">
+          <div class="history-info position-relative">
+            <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center pl-3">
+              <span class="video-play-icon">
+                <span class="fa fa-play"></span>
+              </span>
+            </a>
+            <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+              <iframe src="https://player.vimeo.com/video/305185528" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+            </div>
+            <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+              <iframe src="https://player.vimeo.com/video/305185528" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- 10-Blog -->
-    <section class="blog">
-        <div class="container">
-            <h6>Latest Posts</h6>
-            <h3>Blog Posts</h3>
+    <section class="dinerBlog py-5">
+        <div class="container py-md-5 py-2">
+          <div class="header-title text-center">
+            <h6 class="title-subhny">Latest Posts</h6>
+            <h3 class="title-w3l">Blog Posts</h3>
+          </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 item mt-5">
                   <div class="card">
@@ -170,63 +196,99 @@
     </section>
 
     <!-- 11-Testimonials -->
-    <section class="testimonial">
-        <div class="container">
-          <div id="portCarouselID" class="carousel slide carousel-fade" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#portCarouselID" data-slide-to="0" class="active"></li>
-              <li data-target="#portCarouselID" data-slide-to="1"></li>
-              <li data-target="#portCarouselID" data-slide-to="2"></li>
-              <li data-target="#portCarouselID" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="carousel-caption">
-                  <img class="portAvatar animate__animated animate__fadeInUp" src="./img/team1.jpg" alt="">
-                  <h5>OMG! I cannot believe. It's Awesome</h5>
+    <section class="w3l-clients w3l-agency-test" id="testimonials">
+      <div class="midd-w3 py-5">
+        <div class="container py-lg-5 py-md-3">
+          <div class="header-title text-center">
+            <h6 class="title-subhny">Testimonials</h6>
+            <h3 class="title-w3l mb-5">
+              What People Say
+            </h3>
+          </div>
+          <div id="owl-agency" class="owl-carousel owl-theme py-2 mb-4 text-center">
+            <div class="item">
+              <div class="testimonial-content">
+                <div class="testimonial">
+                  <a class="comment-img" href="#url"><img src="./img/team1.jpg" class="img-responsive"
+                      alt="placeholder image"></a>
+                  <blockquote>
+                    <q>OMG! I cannot believe. It's Awesome</q>
+                  </blockquote>
                   <p>My new site is so much faster and easier to work with than my old site. They are here to
                     help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
                     Pellen tesque libero ut justo, ultrices in ligula.</p>
-                    <h3>Johnson william</h3>
-                    <p class="indentity text-center">Customer</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel-caption">
-                  <img class="portAvatar" src="./img/team2.jpg" alt="">
-                  <h5>Simply the best. Better than all the rest.</h5>
-                  <p>My new site is so much faster and easier to work with than my old site. They are here to
-                    help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
-                    Pellen tesque libero ut justo, ultrices in ligula.</p>
-                    <h3>Alexander sakura</h3>
-                    <p class="indentity text-center">Customer</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel-caption">
-                  <img class="portAvatar" src="./img/team3.jpg" alt="">
-                  <img class="portAvatar animate__animated animate__fadeInUp" src="./img/team1.jpg" alt="">
-                  <h5>OMG! I cannot believe. It's Awesome</h5>
-                  <p>My new site is so much faster and easier to work with than my old site. They are here to
-                    help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
-                    Pellen tesque libero ut justo, ultrices in ligula.</p>
-                    <h3>John wilson</h3>
-                    <p class="indentity text-center">Customer</p>
-                </div>
-                <div class="carousel-item">
-                  <div class="carousel-caption">
-                    <img class="portAvatar" src="./img/team3.jpg" alt="">
-                    <h5>Simply the best. Better than all the rest.</h5>
-                  <p>My new site is so much faster and easier to work with than my old site. They are here to
-                    help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
-                    Pellen tesque libero ut justo, ultrices in ligula.</p>
-                    <h3>Julia sakura</h3>
-                    <p class="indentity text-center">Customer</p>
+                  <div class="text-center mt-4">
+                    <div class="people-info align-self">
+                      <h3>Johnson william</h3>
+                      <p class="indentity text-center">Customer</p>
+                    </div>
                   </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-content">
+                <div class="testimonial">
+                  <a class="comment-img" href="#url"><img src="./img/team2.jpg" class="img-responsive"
+                      alt="placeholder image"></a>
+                  <blockquote>
+                    <q>Simply the best. Better than all the rest.</q>
+                  </blockquote>
+                  <p>My new site is so much faster and easier to work with than my old site. They are here to
+                    help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                    Pellen tesque libero ut justo, ultrices in ligula.</p>
+                  <div class="text-center mt-4">
+                    <div class="people-info align-self">
+                      <h3>Alexander sakura</h3>
+                      <p class="indentity text-center">Customer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-content">
+                <div class="testimonial">
+                  <a class="comment-img" href="#url"><img src="./img/team3.jpg" class="img-responsive"
+                      alt="placeholder image"></a>
+                  <blockquote>
+                    <q>OMG! I cannot believe. It's Awesome</q>
+                  </blockquote>
+                  <p>My new site is so much faster and easier to work with than my old site. They are here to
+                    help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                    Pellen tesque libero ut justo, ultrices in ligula.</p>
+                  <div class="text-center mt-4">
+                    <div class="people-info align-self">
+                      <h3>John wilson</h3>
+                      <p class="indentity text-center">Customer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-content">
+                <div class="testimonial">
+                  <a class="comment-img" href="#url"><img src="./img/team3.jpg" class="img-responsive"
+                      alt="placeholder image"></a>
+                  <blockquote>
+                    <q>OMG! I cannot believe. It's Awesome</q>
+                  </blockquote>
+                  <p>My new site is so much faster and easier to work with than my old site. They are here to
+                    help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                    Pellen tesque libero ut justo, ultrices in ligula.</p>
+                  <div class="text-center mt-4">
+                    <div class="people-info align-self">
+                      <h3>Julia sakura</h3>
+                      <p class="indentity text-center">Customer</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </section>
 
     <!-- 12-Footer -->
@@ -321,5 +383,28 @@
     <!-- Back to top -->
     <script src="./js/util.js"></script>
     <script src="./js/main.js"></script>
+
+    <!-- Testimonials  slider  -->
+    <!-- <script src="./js/owl.carousel.js"></script> -->
+    <script>
+      $(document).ready(function () {
+        $("#owl-agency").owlCarousel({
+          loop: true,
+          nav: false,
+          margin: 50,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+              nav: false
+            },
+            736: {
+              items: 1,
+              nav: false
+            }
+          }
+        })
+      })
+    </script>
 </body>
 </html>
