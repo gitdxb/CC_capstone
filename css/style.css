@@ -38,10 +38,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Quicksand', sans-serif;
 }
 
-/* The tieu de H6
-    font-family: 'Pacifico', cursive;
-*/
-
 /* Contact */
 .contact {
     background: url(../img/banner2.jpg);
@@ -119,6 +115,7 @@ section.stats {
     text-align: center;
     border-radius: 6px;
     transition: .3s ease;
+    width: 265px;
 }
 .counter:hover {
     transform: translateY(-0.25rem);
@@ -210,6 +207,10 @@ iframe {
 /* BLog */
 .dinerBlog {
     background: #f7f7f7;
+}
+.dinerBlog .row {
+    width: 1200px;
+    height: 480px;
 }
 .title-subhny {
     font-size: 20px;
