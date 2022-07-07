@@ -92,7 +92,7 @@ header{
 .dark #switchButton .fa-moon {
   display: none;
 }
-.dark #searchBar{
+.dark #searchBar, .dark .counter, .dark .dinerVideo__wrapper, .dark .dinerBlog, .dark .w3l-clients, .dark #email {
   background-color: #282828;
   color: white;
   border: #282828;
@@ -108,7 +108,7 @@ header{
   color: white;
 }
 
-.dark .w3l-content-1 p{
+.dark .w3l-content-1 p, .dark .counter .timer,.dark .counter .count-text, .dark .title-w3l, .dark p, .dark h3, .dark .bquote {
   color: white;
 }
 
@@ -135,10 +135,6 @@ header{
   color: white;
 }
 
-
-
-
- 
  
 .input-group-text{
   background-color: white;
@@ -166,12 +162,6 @@ header{
     text-rendering: auto;
   
 }
-
-
-
-
-
-
 
 /* RESPONSIVE */
 @media screen and (max-width:992px) {
