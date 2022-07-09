@@ -135,6 +135,14 @@ header{
   color: white;
 }
 
+.dark .dinerBlog a.blog-desc , .dark .dinerBlog .p-meta-info a, .dark .dinerBlog .read {
+  color: #eee;
+}
+
+.dark #testimonials{
+  background-color:#232220;
+}
+
  
 .input-group-text{
   background-color: white;
