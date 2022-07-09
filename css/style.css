@@ -566,8 +566,7 @@ font-family: 'Quicksand', sans-serif;
     background-size: cover;
     position: relative;
     z-index: -1;
-    height: 28rem;
-    padding: 48px;
+    height: 30rem;
 }
 .contact::before {
     content: "";
@@ -625,10 +624,10 @@ font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
 /* Stats */
-.stats__content .row {
-    margin-top: -70px;
-    z-index: 10;
-    position: relative;
+.stats__content .row__item {
+  margin-top: -70px !important;
+  z-index: 10;
+  position: relative;
 }
 .counter {
     background-color: #fff;
@@ -1148,3 +1147,35 @@ footer input[type="email"] {
   }
 
 /* Responsive font */
+/* Contact */
+@media only screen and (max-width: 1080px) {
+  .contact__inner h3 {
+    font-size: 40px;
+    line-height: 50px;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 736px) {
+  .contact__inner h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+/* Stats */
+@media only screen and (max-width: 640px) {
+  .timer {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .stats__content .count-text p {
+    font-size: 0.9em;
+}
+}
+@media only screen and (max-width: 768) {
+  .stats__content .row__item {
+    margin-top: 24px !important;
+    z-index: 10;
+    position: relative;
+  }
+}
