@@ -6,3 +6,18 @@
 - Requirements: `https://apicrm.cybersoft.edu.vn/files/11-[capstone]-layout.pdf`
 - Phan cong nhiem vu: `https://docs.google.com/spreadsheets/d/1x09jlcTluBMrKsYl4qIZG_SFpLhJOaS1/edit#gid=603007439`
 - Deadline 11/07/2022
+
+## Bảng phân công công việc
+|  # |       **Section**       | **Member** | **Dark Mode** | **Progress** |
+|:--:|:-----------------------:|------------|---------------|----------|
+| 1  | Header (Nav + Carousel) | Quan       | x             |   ✅       |
+| 2  | Content (about us)      | Quan       | x             |   ✅       |
+| 3  | Agent Block             | Quan       |               |   ✅       |
+| 4  | News                    | Quan       | x             |   ✅       |
+| 5  | Home services           | Quan       | x             |   ✅       |
+| 6  | Contact                 | Tam        |               |   ✅       |
+| 7  | Stats                   | Tam        | x             |   ✅       |
+| 8  | Video                   | Tam        | x             |   ✅       |
+| 9  | Blog                    | Tam        | x             |   ✅       |
+| 10 | Testimonials            | Tam        | x             |   ✅       |
+| 11 | Footer                  | Tam        |               |   ✅       |
