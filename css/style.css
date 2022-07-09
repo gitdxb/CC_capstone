@@ -557,7 +557,8 @@ font-family: 'Quicksand', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: 1;;
+    z-index: -1;
+    height: 28rem;
 }
 .contact::before {
     content: "";
@@ -671,6 +672,17 @@ p.count-text {
     align-items: center;
     min-height: 500px;
     border-radius: 6px;
+}
+.dinerVideo .history-info:before {
+  content: "";
+  background: rgb(16 15 19 / 60%);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 6px;
 }
 .dinerVideo .play-view {
     left: 0;
