@@ -567,6 +567,7 @@ font-family: 'Quicksand', sans-serif;
     position: relative;
     z-index: -1;
     height: 28rem;
+    padding: 48px;
 }
 .contact::before {
     content: "";
