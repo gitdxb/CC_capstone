@@ -1,6 +1,7 @@
 # Bài tập nhóm CC_capstone
-- <font color='green'>Nhóm: **Trần Thế Tâm** và **Nguyễn Minh Quân**</font>
-- <font color='green'>Deadline 11/07/2022</font>
+- Nhóm: **Trần Thế Tâm** và **Nguyễn Minh Quân**
+- Lớp CyberClass DN04
+- Deadline 11/07/2022
 ## Bảng phân công công việc
 |  # |       **Section**       | **Member** | **Dark Mode** | **Progress** |
 |:--:|:-----------------------:|------------|---------------|----------|
