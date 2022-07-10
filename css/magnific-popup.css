@@ -144,7 +144,15 @@ button::-moz-focus-inner {
     top: 1px; }
 
 .mfp-close-btn-in .mfp-close {
-  color: #333; }
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 10px;
+  line-height: 20px;
+  border: 1px solid white;
+  margin-right: -50px;
+  border-radius: 6px;
+}
 
 .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {
