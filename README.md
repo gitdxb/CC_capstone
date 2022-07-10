@@ -1,6 +1,6 @@
 # Bài tập nhóm CC_capstone
-## Nhóm: **Trần Thế Tâm** và **Nguyễn Minh Quân**
-## Deadline 11/07/2022
+- <font color='green'>Nhóm: **Trần Thế Tâm** và **Nguyễn Minh Quân**</font>
+- <font color='green'>Deadline 11/07/2022</font>
 ## Bảng phân công công việc
 |  # |       **Section**       | **Member** | **Dark Mode** | **Progress** |
 |:--:|:-----------------------:|------------|---------------|----------|
@@ -22,7 +22,7 @@
 - Requirements: `https://apicrm.cybersoft.edu.vn/files/11-[capstone]-layout.pdf`
 
 ## To do tasks:
-✅ Code 
-✅ Link Github chứa source code
-✅ Link online của dự án:
-✅ Link youtube (chưa có)
+✅ Code<br>
+✅ Link Github chứa source code<br>
+✅ Link online của dự án<br>
+✅ Link youtube (chưa có)<br>
