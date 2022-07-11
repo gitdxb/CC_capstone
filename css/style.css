@@ -24,6 +24,7 @@ a {
     color: #ff6600;
     text-decoration: none;
     background-color: transparent;
+    cursor: pointer;
 }
 li {
     list-style-type: none;
@@ -211,13 +212,13 @@ header{
     border-radius: 5px;
 }
 
-.btn-style, .btn-white {
+/* .btn-style, .btn-white {
     padding: 12px 45px;
     font-size: 16px;
     line-height: 30px;
     font-weight: 700;
     transition: 0.3s ease-in;
-}
+} */
 
 .btn-style, .btn-white:hover{
     background: #fff;
@@ -553,7 +554,7 @@ font-family: 'Quicksand', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: -1;
+    z-index: 1;
     height: 28rem;
     padding: 48px;
 }
@@ -579,21 +580,24 @@ font-family: 'Quicksand', sans-serif;
     max-width: 100%;
 }
 /* Buttons */
-.contact__button .btn-white {
+.btn-style, .btn-white {
+  padding: 12px 45px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  transition: 0.3s ease-in;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+div.contact__button .btn-white {
     background: transparent;
     border: 2px solid #fff;
     color: #ffffff;
+    cursor: pointer;
+    z-index: 999;
 }
-.btn-style, .btn-white {
-    padding: 12px 45px;
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 700;
-    transition: 0.3s ease-in;
-    border-radius: 6px;
-    border: 2px solid transparent;
-}
-.contact__button .btn-white:hover {
+div.contact__button .btn-white:hover {
     background: #fff;
     border: 2px solid #fff;
     color: #ff6600;
@@ -603,7 +607,7 @@ font-family: 'Quicksand', sans-serif;
     background-color: #ff6600;
     border: 2px solid #ff6600;
 }
-.btn-primary:hover {
+.contact__button .btn-primary:hover {
     color: #fff;
     background-color: #ff6600;
     border: 2px solid #ff6600;
@@ -1257,6 +1261,7 @@ footer input[type="email"] {
     transition: 0.3s ease-in;
     border-radius: 6px;
     border: 2px solid transparent;
+    cursor: pointer;
   }
 }
 @media (max-width: 510px){
@@ -1268,6 +1273,7 @@ footer input[type="email"] {
     transition: 0.3s ease-in;
     border-radius: 6px;
     border: 2px solid transparent;
+    cursor: pointer;
   }
   .contact {
     height: 20rem;
