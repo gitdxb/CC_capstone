@@ -26,4 +26,4 @@
 ✅ Code<br>
 ✅ Link Github chứa source code<br>
 ✅ Link online của dự án<br>
-✅ Link youtube (chưa có)<br>
+✅ Link youtube (https://www.youtube.com/watch?v=5paDEmSdFZc)
