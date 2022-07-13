@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #232121;
     font-family: 'Quicksand', sans-serif;
 }
-
+/* 
 .headerCarousel{
     
     background-size: cover;
@@ -61,6 +61,165 @@ header{
     font-size: 36px;
     font-weight: 700;
     color: white;
+} */
+
+.header {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 20px;
+  padding: 40px 0 20px 0;
+  align-items: center;
+}
+
+.right-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.right-content.search-bar {
+  display: flex;
+  flex: 1;
+  margin: 0 auto;
+}
+
+.right-content .search-bar .search .search__input {
+  display: flex;
+  flex: 1;
+  padding: 10px 50px 10px 20px;
+  height: 45px;
+  font-size: 16px;
+  color:#c2d0da;
+  border: none;
+  font-weight: 400;
+  border-radius: 8px;
+  position: relative;
+  right: 0;
+  background: #fdfbf8;
+  outline: 0;
+  border: 1px solid #232220;
+}
+
+.right-content .search-bar .search .search__icon {
+  position: absolute;
+  right: 20px;
+  font-size: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.btn{
+  background-color: transparent;
+}
+
+.button{
+  outline: none;
+  border: none;
+  background: none;
+  text-align: center;
+  color: #fbfdfb;
+  font-size: 1.95em;
+  padding: 0 8px;
+}
+
+.button .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+}
+
+@media (max-width:600px) {
+  .right-content.search-bar {
+    display: none;
+  }
+}
+h1 a.logo-brand {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+/* banner */
+.banner {
+  background-size: cover;
+  background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(../img/banner1.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: initial;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+.banner .bannerhny-info {
+  max-width: 600px;
+  text-align: left;
+  margin-top: 100px;
+}
+
+.banner .bannerhny-info h3 {
+  font-size: 54px;
+  line-height: 64px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.banner .bannerhny-info p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.banner .bannerhny-info .btn-white{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+ .btn-style,.banner .bannerhny-info .btn-white:hover{
+  background: #fff;
+  border: 2px solid #fff;
+  color: #ff6600;
+}
+
+
+@media (max-width:1190px) {
+  .banner .bannerhny-info h3 {
+      font-size:48px;
+      line-height:58px;
+  }
+}
+@media (max-width:992px) {
+  .banner .bannerhny-info h3 {
+    font-size: 44px;
+    line-height: 53px;
+  }
+}
+@media (max-width:800px) {
+  .banner .bannerhny-info h3 {
+      font-size: 40px;
+      line-height: 50px;
+  }
+  .banner {
+      min-height: 600px;
+      margin-top:60px;
+  }
+}
+@media (max-width:480px) {
+  .banner .bannerhny-info h3 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .banner .bannerhny-info {
+      max-width: 500px;
+      margin-top: 30px;
+  }
+  .banner {
+      min-height:450px;
+  }
 }
 
 /* darklight theme
@@ -68,13 +227,14 @@ header{
 
  /* Light theme */
 #switchButton {
-  background-color: white;
+  background-color: transparent;
 }
 #switchButton .fa-sun {
   display: none;
 }
 #switchButton .fa-moon {
   display: block;
+  color: white;
 }
 
 /* Dark Theme*/
@@ -82,7 +242,7 @@ header{
   background-color:white;
 }
 .dark #switchButton {
-  background-color: black;
+  background-color: transparent;
 }
 .dark #switchButton .fa-sun {
   display: block;
@@ -96,8 +256,12 @@ header{
   background-color: #282828;
   color: white;
   border: #282828;
-  
 }
+
+.dark .fa{
+  color: white;
+}
+
 .dark .footer__social a {
   background-color: #282828;
   color: #ff6600;
@@ -122,7 +286,7 @@ header{
   color: white;
 }
 
-.dark .home-services, .dark .stats, .dark .dinerVideo__wrapper, .dark .counter, .dark .w3l-clients {
+.dark .home-services,.dark .stats , .dark .dinerVideo__wrapper, .dark .counter, .dark .w3l-clients {
   background-color: #232220;
   
 }
@@ -147,7 +311,6 @@ header{
 .dark #testimonials{
   background-color:#232220;
 }
-
  
 .input-group-text{
   background-color: white;
@@ -176,69 +339,7 @@ header{
   
 }
 
-/* RESPONSIVE */
-@media screen and (max-width:992px) {
-    /* HEADER */
-}
 
-.carousel {
-    max-width: 600px;
-    text-align: left;
-    margin-top: 100px;
-}
-
-
- .carousel h3{
-    font-size: 54px;
-    line-height: 64px;
-    font-weight: 600;
-    text-transform: capitalize;
-    color: #fff;
-}
-
-.carousel p {
-    font-size: 16px;
-    line-height: 28px;
-    color: #fff;
-}
-
- .carousel .btn-white {
-    background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    border-radius: 5px;
-}
-
-.btn-style, .btn-white {
-    padding: 12px 45px;
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 700;
-    transition: 0.3s ease-in;
-}
-
-.btn-style, .btn-white:hover{
-    background: #fff;
-    border: 2px solid #fff;
-    color: #ff6600;
-}
-
-.title-subhny h6{
-    margin-block-start: 2.33em;
-    margin-block-end: 2.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    
-}
-
-p{
-margin: 0;
-padding: 0;
-font-size: 18px;
-line-height: 28px;
-color: rgb(21 27 44 / 70%);
-font-family: 'Quicksand', sans-serif;
-}
 /* AGENT BLOCK */
 .w3l-agent-block {
     background: #ff6600;
@@ -567,7 +668,6 @@ font-family: 'Quicksand', sans-serif;
     position: relative;
     z-index: -1;
     height: 28rem;
-    padding: 48px;
 }
 .contact::before {
     content: "";
@@ -625,11 +725,13 @@ font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
 /* Stats */
-.stats__content .row {
-    margin-top: -70px;
-    z-index: 10;
-    position: relative;
+
+section.stats{
+  margin-top: -70px;
+  z-index: 10;
+  position: relative;
 }
+
 .counter {
     background-color: #fff;
     box-shadow: rgb(1 1 1 / 5%) 1px 1px 5px 0px;
