@@ -268,9 +268,6 @@ h1 a.logo-brand {
   border: #282828;
 }
 
-.dark .fa {
-  color: white;
-}
 
 .dark .footer__social a {
   background-color: #282828;
@@ -763,7 +760,7 @@ section.stats {
 }
 
 .stats__content .row__item {
-  margin-top: -70px !important;
+  margin-top: -37px !important;
   z-index: 10;
   position: relative;
 }
